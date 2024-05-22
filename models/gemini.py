@@ -54,10 +54,9 @@ chat_session = model.start_chat(
   ]
 )
 
-print('history', chat_session.history)
+# print('history', chat_session.history)
 
 
 def chat(msg):
     response = chat_session.send_message(msg)
-
     return response
