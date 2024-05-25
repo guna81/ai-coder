@@ -1,59 +1,77 @@
 {
-    "name": "my-todo-app",
+    "name": "my_todo_app",
     "type": "folder",
     "children": [
         {
-            "name": "src",
-            "type": "folder",
-            "children": [
-                {
-                    "name": "components",
-                    "type": "folder",
-                    "children": [
-                        {
-                            "name": "TodoList.js",
-                            "type": "file"
-                        },
-                        {
-                            "name": "TodoItem.js",
-                            "type": "file"
-                        },
-                        {
-                            "name": "TodoForm.js",
-                            "type": "file"
-                        }
-                    ]
-                },
-                {
-                    "name": "App.js",
-                    "type": "file"
-                },
-                {
-                    "name": "index.js",
-                    "type": "file"
-                },
-                {
-                    "name": "styles.css",
-                    "type": "file"
-                }
-            ]
-        },
-        {
-            "name": "public",
-            "type": "folder",
-            "children": [
-                {
-                    "name": "index.html",
-                    "type": "file"
-                }
-            ]
-        },
-        {
-            "name": "package.json",
+            "name": "app.py",
             "type": "file"
         },
         {
-            "name": "README.md",
+            "name": "config.py",
+            "type": "file"
+        },
+        {
+            "name": "models",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "__init__.py",
+                    "type": "file"
+                },
+                {
+                    "name": "todo.py",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "routes",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "__init__.py",
+                    "type": "file"
+                },
+                {
+                    "name": "todo.py",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "schemas",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "__init__.py",
+                    "type": "file"
+                },
+                {
+                    "name": "todo.py",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "tests",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "__init__.py",
+                    "type": "file"
+                },
+                {
+                    "name": "test_routes.py",
+                    "type": "file"
+                },
+                {
+                    "name": "test_models.py",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "requirements.txt",
             "type": "file"
         }
     ]

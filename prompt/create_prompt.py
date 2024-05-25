@@ -4,7 +4,6 @@ from .templates.generic import *
 
 def create_prompt(prompt, context):
     args = list(context.values())
-    print(args)
     prompt = prompt.format(*args)
     prompt = prompt + "\n" + GENERATE_SCRIPT
     return prompt
