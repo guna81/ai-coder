@@ -1,6 +1,6 @@
 import json
-# from core.generator.command import generate_command
 from core.generator.generator import generate
+# from core.generator.command import generate_command
 from core.generator.code import generate_code
 
 from const.const import FILE_STRUCTURE_JSON
@@ -36,7 +36,7 @@ def create_app(app_name, description, tech_stack):
     print("Project folder structure created successfully.")
 
     # update project folder structure
-    update_file_tree(file_structure)
+    update_file_tree(app_name, file_structure)
 
     development_loop(app_details, file_structure, path=0, file=0)
 

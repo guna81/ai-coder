@@ -8,12 +8,14 @@ https://ai.google.dev/gemini-api/docs/get-started/python
 """
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()  # take environment variables from .env.
+
 
 import google.generativeai as genai
 
-# genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-
-genai.configure(api_key="AIzaSyD8Kre-SA4NgdPfV-jVvVylraelbWiuTyk")
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # Create the model
 # See https://ai.google.dev/api/python/google/generativeai/GenerativeModel
@@ -44,7 +46,7 @@ safety_settings = [
 ]
 
 model = genai.GenerativeModel(
-  model_name="gemini-1.5-flash-latest",
+  model_name="gemini-1.5-pro",
   safety_settings=safety_settings,
   generation_config=generation_config,
 )
