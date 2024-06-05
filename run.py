@@ -8,7 +8,6 @@ def run():
     app_name = "My Todo App"
     description = "Create app todo app"
     tech_stack = "javascript, react"
-    
 
     # app_name = "My Todo App"
     # description = "Create app todo app api"
