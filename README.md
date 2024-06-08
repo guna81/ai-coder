@@ -1,2 +1,3 @@
-# mark1
-AI Assistent
+# AI Coder
+
+An AI code Assistent

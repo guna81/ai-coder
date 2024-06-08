@@ -1,4 +1,4 @@
-from core.build.create_app import create_app
+from core.create.create_app import create_app
 
 def run():
     # app_name = input("app name: ")
