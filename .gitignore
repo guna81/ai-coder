@@ -1,7 +1,7 @@
-*.pyc
-
-/env
 /output
-/__pycache__
+/env
+
+__pycache__
+*.pyc
 
 .env
