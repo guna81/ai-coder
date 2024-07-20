@@ -1,7 +1,7 @@
 import json
-from core.generator.generator import generate
+from main.generator.generator import generate
 # from core.generator.command import generate_command
-from core.generator.code import generate_code
+from main.generator.code import generate_code
 
 from const.const import FILE_STRUCTURE_JSON
 from prompt.create_prompt import create_prompt, GET_APP_DETAILS, GENERATE_FOLDER_STRUCTURE
